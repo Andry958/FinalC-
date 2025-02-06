@@ -6,7 +6,8 @@ internal class Program
     private static void Main(string[] args)
     {
         Dict dic = new Dict();
-
+        string test = "--------------------------------------Load all words from file--------------------------------------";
+        Console.WriteLine(test.Length);
         dic.Veiw();
         //dic.Change();
         dic.Sorted();
